@@ -1,0 +1,45 @@
+.NavBar{
+    background-color: #333;
+    position: fixed;
+    width:100%;
+    top:0;
+}
+.logo{
+    float:left;
+    display:block;
+    padding: 20px;
+    text-shadow: 3px 6px rgba(50,50,70,0.5);
+    box-shadow: 3px 6px rgba(0,0,0,0.2);
+}
+.list{  
+    text-align: center;
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 20px;
+}
+.nav{
+    color:white;
+    text-decoration: none;
+    margin-left:30px;
+    float:left;
+    display:block;
+    padding: 35px;
+}
+.btn-signin {
+    color:white;
+    background-color:#333;
+    border: 2px solid whitesmoke;
+    float:left;
+    display:block;
+    margin-top:20px;
+    margin-left:70px;
+    padding: 20px;
+}
+/* Change color of dropdown links on hover */
+.list .nav:hover {background-color:turquoise;}
+.list button:hover {background-color:turquoise;}
+  
+/* Show the dropdown menu on hover */
+.NavBar:hover .list {display: block;}

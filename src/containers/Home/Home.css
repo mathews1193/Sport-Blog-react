@@ -1,0 +1,8 @@
+.main-logo{
+  margin-top:130px;
+  margin-left:500px;
+}
+.main-logo h1{
+    text-shadow: 3px 6px rgba(50,50,70,0.5);
+    font-size:40px;
+}
