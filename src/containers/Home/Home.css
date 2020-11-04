@@ -3,6 +3,21 @@
   margin-left:500px;
 }
 .main-logo h1{
+    margin-left:10px;
     text-shadow: 3px 6px rgba(50,50,70,0.5);
-    font-size:40px;
+    font-size:45px;
+}
+.main-logo h2{
+  margin-left:10px;
+  text-shadow: 3px 6px rgba(50,50,70,0.5);
+  font-size:30px;
+}
+.btn-getstarted{
+  margin-left:80px;
+  color:whitesmoke;
+  font-size:17px;
+  font-weight:600;
+  background-color:#333;
+  border-radius: 20%;
+  padding:15px;
 }
