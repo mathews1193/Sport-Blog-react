@@ -1,14 +1,18 @@
 import React, { Component } from 'react';
 import NavBar from '../../components/NavBar/NavBar';
-import "./SignIn.css";
+import "./SignUp.css";
 
 export class signIn extends Component {
     render() {
         return (
             <div>
                 <NavBar/>
-                <div className="sign-in"> 
-                    <h1>Sign In</h1> 
+                <div className="sign-up"> 
+                    <h1>Registration</h1> 
+                    <input
+                    type="text"
+                    className="search-bar"
+                    placeholder="Username"/>
                     <input
                     type="text"
                     className="search-bar"
@@ -17,7 +21,11 @@ export class signIn extends Component {
                     type="text"
                     className="search-bar"
                     placeholder="Password"/>
-                     <button className="btn-login">Login</button>
+                     <input
+                    type="text"
+                    className="search-bar"
+                    placeholder=" Confirm Password"/>
+                    <button className="btn-create">Create Account</button>
                 </div>
             </div>
             

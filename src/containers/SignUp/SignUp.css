@@ -1,19 +1,19 @@
-.sign-in h1{
+.sign-up h1{
     margin-top: 100px;
-    margin-left:10px;
+    margin-left:150px;
     text-shadow: 3px 6px rgba(50,50,70,0.5);
     font-size:45px;
 }
-.sign-in{
+.sign-up{
   width:100%;
   margin:0 0 75px; 
   margin-top:160px;
   margin-left:400px;
 }
-.sign-in .search-bar{
+.sign-up .search-bar{
   display:block;
   width: 50%;
-  padding:20px; 
+  padding:15px; 
  
   appearance: none;
   background:none;
@@ -32,7 +32,7 @@
 .sign-up .search-bar:focus{
   background-color: rgba(255,255,255,0.75);
 }
-.btn-login{
+.btn-create{
   margin-left:150px;
   margin-top:30px;
   width:25%;

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import NavBar from '../../components/NavBar/NavBar';
 import "./Home.css";
+import {BrowserRouter as Router,Link} from "react-router-dom";
 import logo from '../../img/logo.png';
 
 export class home extends Component {
@@ -13,7 +14,10 @@ export class home extends Component {
                         <img src={logo} alt="logo" width="300" height="200" />
                         <h1>Buzzer Beater</h1> 
                         <h2>Live The Moment</h2>
-                        <button className="btn-getstarted">Get Started</button>
+                        <Router>
+                            <Link to ='/signup'> <button className="btn-getstarted">Get Started</button></Link>
+                        </Router>
+                        
                     </div>
                 </div>
             </div>

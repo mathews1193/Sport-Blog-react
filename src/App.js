@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
-import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
+import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 import Home from'./containers/Home/home';
 import Dashboard from './containers/Dashboard/dashboard';
 import Profile from './containers/Profile/profile';
 import About from './containers/AboutUs/about';
 import Contact from './containers/ContactUs/contact';
 import SignIn from './containers/SignIn/signIn';
+import SignUp from'./containers/SignUp/signUp';
 
 class App extends Component {
   render(){
@@ -33,6 +34,9 @@ class App extends Component {
               <Route path="/signin"component={SignIn}>
                 <SignIn/>
               </Route>
+              <Route path="/signup" component={SignUp}>
+                <SignUp/>
+            </Route>
             </Switch>
           </Router> 
       </div>
