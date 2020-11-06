@@ -12,10 +12,10 @@ class NavBar extends React.Component{
             <ul className='list'>
                 <Router>
                     <Link to ='/' className="nav">Home</Link>
-                    <Link to ='/dashboard'className="nav">Dashboard</Link>
+                    <Link to ='/dashboard'className="nav">Feed</Link> 
+                    <Link to ='/contact'className="nav">News</Link>
                     <Link to ='/profile'className="nav">Profile</Link>
                     <Link to ='/about'className="nav">About Us</Link>
-                    <Link to ='/contact'className="nav">Contact Us</Link>
                     <Link to ='/signIn'> <button className="btn-signin">Sign In</button> </Link>
                 </Router>
             </ul>
