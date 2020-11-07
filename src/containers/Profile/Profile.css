@@ -1,9 +1,19 @@
 .profile{
   margin-top:130px;
-  margin-left:500px;
+  margin-left:200px;
 }
 .profile h1{
     margin-left:10px;
     text-shadow: 3px 6px rgba(50,50,70,0.5);
     font-size:45px;
+}
+.profile .profile-pic{
+  width:20%;
+  height:50%;
+  border: 4px solid whitesmoke;
+}
+.profile p{
+  margin-top:30px;
+  margin-left:10px;
+  font-size:25px;
 }

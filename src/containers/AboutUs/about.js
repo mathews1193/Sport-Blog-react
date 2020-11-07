@@ -9,6 +9,8 @@ export class about extends Component {
                 <NavBar/>
                 <div className="about"> 
                     <h1>About Us</h1> 
+                    <p>Buzzer Beater Sports Blog</p>
+                    <p>Created by Next Level Tech</p>
                 </div>
             </div>
             
