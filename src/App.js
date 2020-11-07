@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import './App.css';
 import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 import Home from'./containers/Home/home';
-import Dashboard from './containers/Dashboard/dashboard';
+import Feed from './containers/Feed/feed';
 import Profile from './containers/Profile/profile';
 import About from './containers/AboutUs/about';
-import Contact from './containers/ContactUs/contact';
+import News from './containers/News/news';
 import SignIn from './containers/SignIn/signIn';
 import SignUp from'./containers/SignUp/signUp';
 
@@ -19,8 +19,8 @@ class App extends Component {
             <Route exact path="/" component={Home}>
                 <Home/>
             </Route>
-            <Route path="/dashboard" component={Dashboard}>
-                <Dashboard/>
+            <Route path="/dashboard" component={Feed}>
+                <Feed/>
             </Route>
             <Route path="/profile" component={Profile}>
                 <Profile/>
@@ -28,8 +28,8 @@ class App extends Component {
               <Route path="/about"component={About}>
                 <About/>
               </Route>
-              <Route path="/contact"component={Contact}>
-                <Contact/>
+              <Route path="/news"component={News}>
+                <News/>
               </Route>
               <Route path="/signin"component={SignIn}>
                 <SignIn/>

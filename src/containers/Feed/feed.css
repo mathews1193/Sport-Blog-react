@@ -1,19 +1,19 @@
-.dashboard{
+.feed{
   margin-top:130px;
   margin-left:500px;
 }
-.dashboard h1{
+.feed h1{
     margin-left:10px;
     text-shadow: 3px 6px rgba(50,50,70,0.5);
     font-size:45px;
 }
-.dashboard{
+.feed{
   width:100%;
   margin:0 0 75px; 
   margin-top:160px;
   margin-left:400px;
 }
-.dashboard .search-bar{
+.feed .search-bar{
   display:block;
   width: 50%;
   padding:20px; 

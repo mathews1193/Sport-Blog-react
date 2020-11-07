@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import NavBar from '../../components/NavBar/NavBar';
-import "./dashboard.css";
+import "./feed.css";
 
-export class dashboard extends Component {
+export class feed extends Component {
 
     post() {
         <h1>Post</h1> 
@@ -11,7 +11,7 @@ export class dashboard extends Component {
         return (
             <div>
                 <NavBar/>
-                <div className="dashboard"> 
+                <div className="feed"> 
                     <h1>Feed</h1> 
                     <input
                     type="text"
@@ -25,4 +25,4 @@ export class dashboard extends Component {
     }
 }
 
-export default dashboard
+export default feed
