@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
+import NavBar from "./components/NavBar/NavBar";
 import Home from'./containers/Home/home';
 import Feed from './containers/Feed/feed';
 import Profile from './containers/Profile/profile';
@@ -12,34 +13,36 @@ import SignUp from'./containers/SignUp/signUp';
 class App extends Component {
   render(){
     return (
-    <div>
+    <div> 
+      <Router>
+      <NavBar/>
       <div className="container">
-          <Router>
-            <Switch>
-            <Route exact path="/" component={Home}>
-                <Home/>
+        <Switch>
+          <Route exact path="/" component={Home}>
+            <Home/>
+          </Route>
+          <Route path="/feed" component={Feed}>
+            <Feed/>
+          </Route>
+          <Route path="/profile" component={Profile}>
+            <Profile/>
+          </Route>
+          <Route path="/about"component={About}>
+            <About/>
+          </Route>
+          <Route path="/news"component={News}>
+            <News/>
+          </Route>
+          <Route path="/signin"component={SignIn}>
+            <SignIn/>
             </Route>
-            <Route path="/feed" component={Feed}>
-                <Feed/>
+            <Route path="/signup" component={SignUp}>
+              <SignUp/>
             </Route>
-            <Route path="/profile" component={Profile}>
-                <Profile/>
-              </Route>
-              <Route path="/about"component={About}>
-                <About/>
-              </Route>
-              <Route path="/news"component={News}>
-                <News/>
-              </Route>
-              <Route path="/signin"component={SignIn}>
-                <SignIn/>
-              </Route>
-              <Route path="/signup" component={SignUp}>
-                <SignUp/>
-            </Route>
-            </Switch>
-          </Router> 
-      </div>
+          </Switch>
+         
+      </div> 
+      </Router> 
     </div>
   );
   }

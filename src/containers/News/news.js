@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import NavBar from '../../components/NavBar/NavBar';
 import "./news.css";
 
 export class news extends Component {
@@ -12,7 +11,6 @@ export class news extends Component {
     render() {
         return (
             <div>
-                <NavBar/>
                  <div className="news">
                      <h1>News</h1>
                  </div>
