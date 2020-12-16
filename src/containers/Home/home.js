@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import "./Home.css";
 import {Link} from "react-router-dom";
 import logo from '../../img/logo.png';
 
-export class home extends Component {
-    render() {
+export default function home() {
+
         return (
             <div>
                 <div className="home">
@@ -18,6 +18,3 @@ export class home extends Component {
             </div>
         )
     }
-}
-
-export default home

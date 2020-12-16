@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import "./SignUp.css";
 
-export class signIn extends Component {
-    render() {
+export default function signIn () {
+
         return (
             <div>
                 <div className="sign-up"> 
@@ -29,6 +29,3 @@ export class signIn extends Component {
             
         )
     }
-}
-
-export default signIn

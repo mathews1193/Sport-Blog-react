@@ -1,15 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import "./news.css";
 
-export class news extends Component {
-    constructor(){
-        super();
-        this.state = {
-           
-        }
-    }
-    render() {
-        return (
+export default function news() {
+    return (
             <div>
                  <div className="news">
                      <h1>News</h1>
@@ -17,6 +10,3 @@ export class news extends Component {
             </div>
         )
     }
-}
-
-export default news

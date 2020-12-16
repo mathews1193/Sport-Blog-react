@@ -1,13 +1,11 @@
-import React, { Component } from 'react'
+import React from 'react';
 import './hero.css';
-export class hero extends Component {
-    render() {
+
+export default function hero() {
+    
         return (
             <div>
                 
             </div>
         )
     }
-}
-
-export default hero

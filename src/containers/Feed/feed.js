@@ -1,12 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import "./feed.css";
 
-export class feed extends Component {
+export default function feed() {
 
-    post() {
-        <h1>Post</h1> 
+    const post = () => {
+        
       }
-    render() {
         return (
             <div>
                 <div className="feed"> 
@@ -15,12 +14,9 @@ export class feed extends Component {
                     type="text"
                     className="search-bar"
                     placeholder="Post something"/>
-                    <button onClick={this.post} className="btn-post">Post</button>
+                    <button onClick={post} className="btn-post">Post</button>
                 </div>
             </div>
             
         )
     }
-}
-
-export default feed

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 import NavBar from "./components/NavBar/NavBar";
@@ -10,8 +10,8 @@ import News from './containers/News/news';
 import SignIn from './containers/SignIn/signIn';
 import SignUp from'./containers/SignUp/signUp';
 
-class App extends Component {
-  render(){
+const App = () => {
+
     return (
     <div> 
       <Router>
@@ -46,7 +46,6 @@ class App extends Component {
     </div>
   );
   }
-}
   
 
 export default App;
