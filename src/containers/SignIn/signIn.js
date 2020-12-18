@@ -3,6 +3,10 @@ import firebase from "../../components/Firebase/firebase";
 import Dashboard from "../Profile/profile";
 import Login from "../Login/Login";
 import "./SignIn.css";
+import {toast} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';  
+
+toast.configure();
 
 const App = () => {
 const [user,setUser] = useState('');
@@ -43,6 +47,7 @@ const handleLogin = () =>{
               break;
     }
   });
+  toast("Login Successful");
 };
 
 // signup user with email and password
@@ -63,11 +68,12 @@ const handleSignup = () =>{
               break;
     }
   });
+  toast("New Account Created Successfully");
 };
 
 //logout user 
 const handleLogout = () =>{
-  alert("Logging out now....");
+  toast("Logging Out....");
   firebase.auth().signOut();
 };
 
