@@ -1,7 +1,7 @@
 import React from 'react';
-import './hero.css';
+import './Dashboard.css';
 
-export default function hero() {
+export default function Dashboard() {
     
         return (
             <div>

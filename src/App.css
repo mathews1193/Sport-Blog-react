@@ -1,4 +1,6 @@
-.container body{
-  background-color:rgb(235, 224, 205);
-  font-family:'Oswald',sans-serif;
+body{
+  background-color:rgb(214, 198, 177);
+}
+.container{
+    margin-bottom:50px;
 }

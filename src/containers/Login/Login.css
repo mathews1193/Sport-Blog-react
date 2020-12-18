@@ -1,0 +1,76 @@
+.login h1{
+    margin-top: 100px;
+    margin-left:150px;
+    text-shadow: 3px 6px rgba(50,50,70,0.5);
+    font-size:45px;
+}
+.login{
+  width:100%;
+  margin:0 0 75px; 
+  margin-top:160px;
+  margin-left:300px;
+}
+.login .loginContainer input{
+  display:block;
+  width: 50%;
+  padding:15px; 
+ 
+  appearance: none;
+  background:none;
+  border:none;
+  outline:none;
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 0px 0px 16px 16px;
+ 
+  box-shadow: 0px 5px rgba(0,0,0,0.2);
+
+  color:#313131;
+  font-size:20px;
+
+  transition: 0.4s ease;
+}
+.login .loginContainer input:focus{
+  background-color: rgba(255,255,255,0.75);
+}
+.login .loginContainer .btnContainer {
+  width: 20%;
+  margin-left:200px;
+  background-color:#313131;
+  border-radius: 20%;
+  padding: 20px 0;
+}
+
+.login .loginContainer .btnContainer p {
+  margin: 14px 0 0 0;
+  text-align:center;
+  color: #fff;
+}
+
+.login .loginContainer .btnContainer p span {
+  color: yellow;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: all 400ms ease-in-out;
+}
+
+.login .loginContainer .btnContainer p span:hover {
+  color: red;
+}
+
+.login .loginContainer .errorMsg {
+  color: red;
+  font-size: 16px;
+}
+.btn-sign{
+  margin-left:40px;
+  margin-top:30px;
+  width:70%;
+  color:whitesmoke;
+  font-size:17px;
+  font-weight:600;
+  background-color:#333;
+  border-radius: 20%;
+  padding:15px;
+}
